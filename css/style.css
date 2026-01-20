@@ -161,10 +161,10 @@ section form select {
     font-family: "Roboto", sans-serif;
     color:  #F48E28;
     background-color: #f7fbff;
-    box-sizing: border-box; /* ეს დაამატე რომ padding-მა ზომები არ აურიოს */
+    box-sizing: border-box; 
 }
 
-/* 2 პაროლის კონტეინერი და თვალის აიკონი */
+
 .password-wrapper {
     position: relative;
     width: 100%;
@@ -173,7 +173,7 @@ section form select {
 .password-wrapper i {
     position: absolute;
     right: 15px;
-    top: 42%; /* ცენტრში რომ დაჯდეს ვერტიკალურად */
+    top: 42%; 
     transform: translateY(-50%);
     cursor: pointer;
     color: #F48E28;
