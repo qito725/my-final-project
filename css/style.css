@@ -87,13 +87,16 @@
     height: auto;
     text-align: center;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .absolute-block img {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 80%;
+    margin-bottom: -10px;
 }
 .absolute-block h4 {
-    margin: 10px 0 5px;
+    margin: 0;
     font-size: 26px;
     line-height: 100%;
     color: #111111;
@@ -101,7 +104,7 @@
     font-style: bold;
 }
 .absolute-block p {
-    margin: 0 0 15px;
+    margin: 15px 0;
     font-size: 18px;
     line-height: 100%;
     color: #111111;
@@ -110,7 +113,7 @@
 }
 .price {
     display: block;
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 18px;
     line-height: 100%;
     color: #F48E28;
@@ -120,6 +123,7 @@
     font-size: 20px;
     color: #111111;
     cursor: pointer;
+    margin: 0 5px;
 }
 h4 {
     text-align: center;
